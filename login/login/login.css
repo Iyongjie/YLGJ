@@ -1,0 +1,155 @@
+body,
+body #app,
+html {
+    height: 100%;
+}
+body #app header {
+    background: #fff;
+    display: flex;
+    height: 1.173333em;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999
+}
+body #app header.hidden {
+    display: none;
+}
+
+body #app header section {
+    flex: 1;
+    font-size: .48rem;
+    line-height: 1.173333rem;
+    text-align: center;
+}
+
+body #app header section.header_left img {
+    height: .48rem;
+    width: .48rem;
+}
+
+body #app header section.header_title {
+    flex: 4;
+}
+
+body #app header section.header_right img {
+    height: .88rem;
+    margin-top: .133333rem;
+    width: .88rem;
+}
+body #app .content {
+    background-image: linear-gradient(-180deg, #fd5f28, #ffa486);
+    height: 100%
+}
+body #app .content .content_form {
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+}
+body #app .content .content_form_header_pic {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 88;
+}
+body #app .content .content_form_detail {
+    position: absolute;
+    left: 0;
+    top: 0.533333rem;
+    width: 100%;
+    z-index: 88;
+}
+body #app .content .content_form_detail ul {
+    background: #fd6029;
+    border-radius: 0 0 .266667rem .266667rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    text-align: center;
+    width: 90%;
+}
+body #app .content .content_form_detail ul h3 {
+    box-sizing: border-box;
+    color: #fff;
+    font-size: .533333rem;
+    font-weight: 400;
+    padding: .586667rem 0;
+}
+body #app .content .content_form_detail ul li {
+    border: .026667rem solid #fff;
+    border-radius: .48rem;
+    display: flex;
+    height: 0.96rem;
+    margin: 0 auto .4rem;
+    overflow: hidden;
+    width: 90%;
+}
+body #app .content .content_form_detail ul li img {
+    box-sizing: border-box;
+    height: 0.7rem;
+    width: 0.7rem;
+    margin-left: 0.2rem;
+    margin-top: 0.13rem;
+}
+body #app .content .content_form_detail ul li input {
+    background: none;
+    border: none;
+    color: #fff;
+    flex: 1;
+    height: 100%;
+    width: 100%
+}
+body #app .content .content_form_detail ul li.btn_sendcode input {
+    flex: 2;
+}
+body #app .content .content_form_detail ul li.btn_sendcode #btnSendCode {
+    -moz-appearance: none;
+    -o-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-left: .026667rem solid #fff;
+    border-radius: 0;
+    box-sizing: border-box;
+    flex: 1;
+    font-size: .32rem;
+    height: .533333rem;
+    line-height: .533333rem;
+    margin-top: .2rem;
+    overflow: hidden;
+    padding: 0 .266667rem;
+    text-align: center
+}
+body #app .content .content_form_detail ul li.btn_sendcode #btnSendCode:disabled {
+    color: #ccc
+}
+body #app .content .content_form_detail ul li.btn_submit {
+    background: #fff;
+    margin-top: 0.96rem;
+}
+body #app .content .content_form_detail ul li.btn_submit input {
+    color: #fd6029;
+    font-size: .4rem;
+}
+<!--涉及到内核-->
+body #app .content .content_form_detail ul li ::-webkit-input-placeholder {
+    color: #fff;
+    font-weight: 300
+}
+body #app .content .content_form_detail ul li :-moz-placeholder,
+body #app .content .content_form_detail ul li ::-moz-placeholder {
+    color: #fff;
+    font-weight: 300
+}
+body #app .content .content_form_detail ul li :-ms-input-placeholder {
+    color: #fff;
+    font-weight: 300
+}
+
+.header-fixbug:before {
+    content: "";
+    display: block;
+    height: 1.173333rem;
+    width: 100%;
+}
